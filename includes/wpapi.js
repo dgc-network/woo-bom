@@ -1,14 +1,6 @@
-/*
- * Copyright (c) 2017  |  Netraa, LLC
- * netraa414@gmail.com  |  https://netraa.us
- *
- * Andrew Gunn  |  Owner
- * https://andrewgunn.org
- */
+// Copyright (c) The dgc.network
+// SPDX-License-Identifier: Apache-2.0
 
-/**
- * Created by andy on 3/7/17.
- */
 var giar_settings = {
   api_base:'http://give-it-a-rest.dev/wp-json/give-it-a-rest/v1/',
   endpoints:{

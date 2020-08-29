@@ -1,10 +1,6 @@
 <?php declare( strict_types=1 );
-/**
- * Copyright (c) 2017.  |  Andrew Gunn
- * http://andrewgunn.org  |   https://github.com/amg262
- * andrewmgunn26@gmail.com
- *
- */
+// Copyright (c) The dgc.network
+// SPDX-License-Identifier: Apache-2.0
 
 namespace WooBom;
 
@@ -23,11 +19,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 *
 *
 * Plugin Name: WooBOM - WooCommerce Bill of Materials
-* Plugin URI: http://andrewgunn.org
+* Plugin URI: https://dgc.network
 * Description: Bill of Materials add-on for WooCommerce for raw material tracking, inventory, and production metrics.
 * Version: 1.0.0
-* Author: Andrew Gunn
-* Author URI: https/andrewgunn.org
+* Author: dgc.network
+* Author URI: https://dgc.network
 * Text Domain: wc-bom
 * License: license.txt
 *

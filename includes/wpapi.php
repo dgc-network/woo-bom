@@ -1,12 +1,7 @@
 <?php
-/*
-Plugin Name: Give It A REST API Plugin
-Plugin URI: http://deliciousbrains.com/blog
-Description: Enables the Give it a REST API
-Author: Jeff Gould
-Version: 0.1
-Author URI: http://deliciousbrains.com
-*/
+// Copyright (c) The dgc.network
+// SPDX-License-Identifier: Apache-2.0
+
 if ( ! defined( 'ABSPATH' ) ) { die('No no no!'); } // Exit if accessed directly
 
 register_activation_hook( __FILE__, 'giar_activate' );

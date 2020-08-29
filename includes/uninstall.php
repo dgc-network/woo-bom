@@ -1,15 +1,10 @@
 <?php
 declare( strict_types=1 );
 
+// Copyright (c) The dgc.network
+// SPDX-License-Identifier: Apache-2.0
+
 namespace WooBom;
-
-/**
- * Created by PhpStorm.
- * User: andy
- * Date: 5/1/17
- * Time: 11:39 AM
- */
-
 
 if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 	exit;

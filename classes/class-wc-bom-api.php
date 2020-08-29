@@ -1,10 +1,7 @@
 <?php declare( strict_types = 1 );
-/**
- * Copyright (c) 2017.  |  Andrew Gunn
- * http://andrewgunn.org  |   https://github.com/amg262
- * andrewmgunn26@gmail.com
- *
- */
+// Copyright (c) The dgc.network
+// SPDX-License-Identifier: Apache-2.0
+
 namespace WooBom;
 /**
  * Class WC_Bom_API

@@ -1,10 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Andy
- * Date: 3/10/2017
- * Time: 9:11 PM
- */
+// Copyright (c) The dgc.network
+// SPDX-License-Identifier: Apache-2.0
 
 function acf_installed() {
 

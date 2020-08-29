@@ -1,22 +1,7 @@
 <?php
-/**
- * Copyright (c) 2017  |  Netraa, LLC
- * netraa414@gmail.com  |  https://netraa.us
- *
- * Andrew Gunn  |  Owner
- * https://andrewgunn.org
- */
+// Copyright (c) The dgc.network
+// SPDX-License-Identifier: Apache-2.0
 
-/**
- * Created by PhpStorm.
- * User: andy
- * Date: 2/28/17
- * Time: 2:41 AM
- */
-// display custom admin notice
-/**
- *
- */
 function blackhole_tools_admin_notice() {
 
 	$screen = get_current_screen();

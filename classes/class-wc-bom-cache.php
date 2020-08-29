@@ -1,10 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: andy
- * Date: 5/17/17
- * Time: 12:59 AM
- */
+// Copyright (c) The dgc.network
+// SPDX-License-Identifier: Apache-2.0
 
 namespace WooBom;
 
