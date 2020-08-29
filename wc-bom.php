@@ -193,9 +193,9 @@ class WC_Bom {
 	 */
 	public function load_classes() {
 		//include_once __DIR__ . '/classes/class-wc-bom-data.php';
-		//include_once __DIR__ . '/classes/class-wc-bom-post.php';
+		include_once __DIR__ . '/classes/class-wc-bom-post.php';
 		//include_once __DIR__ . '/classes/class-wc-bom-settings.php';
-		include_once __DIR__ . '/classes/class-wc-bom-logger.php';
+		//include_once __DIR__ . '/classes/class-wc-bom-logger.php';
 		//include_once __DIR__ . '/includes/bom-fields.php';
 		if ( is_admin() ) {
 			include_once __DIR__ . '/classes/class-wc-bom-settings.php';
