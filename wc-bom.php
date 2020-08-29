@@ -60,9 +60,9 @@ const WC_BOM_TMP = __DIR__ . '/assets/tmp/';
 const WC_BOM_DIST = __DIR__ . '/assets/dist/';
 
 
-const WC_BOM_ADMIN = 'Andrew Gunn';
+const WC_BOM_ADMIN = 'Rover Chen';
 
-const WC_BOM_ADMIN_EMAIL = 'andrewmgunn26@gmail.com';
+const WC_BOM_ADMIN_EMAIL = 'rover.k.chen@gmail.com';
 
 
 //require_once WC_BOM_ABSTRACT . 'WC_Abstract_Bom.php';
@@ -183,7 +183,7 @@ class WC_Bom {
 				'time' => current_time( 'mysql' ),
 				'name' => $welcome_name,
 				'data' => $welcome_name . ' ' . $welcome_text,
-				'url'  => 'http://andrewgunn.org',
+				'url'  => 'https://dgc.network',
 			]
 		);
 	}
