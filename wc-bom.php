@@ -105,8 +105,10 @@ class WC_Bom {
 		add_filter( 'plugin_action_links', [ $this, 'plugin_links' ], 10, 5 );
 
 		//$this->load_classes();
-		//$settings = WC_Bom_Settings::getInstance();
-		//$post     = WC_Bom_Post::getInstance();
+		if ( is_admin() ) {
+			$settings = WC_Bom_Settings::getInstance();
+		}
+		$post     = WC_Bom_Post::getInstance();
 
 		//include_once 'uninstall.php';
 		//flush_rewrite_rules();
