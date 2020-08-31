@@ -42,9 +42,6 @@ class WC_Bom_Post {
 		add_action( 'init', [ $this, 'register_material_tags' ] );
 
 		add_action( 'admin_init', [ $this, 'get_parts' ] );
-
-
-
 	}
 
 	/**
@@ -199,8 +196,6 @@ class WC_Bom_Post {
 			'show_in_quick_edit' => true,
 		];
 		register_taxonomy( 'part-category', [ 'part' ], $args );
-
-
 	}
 
 	/**

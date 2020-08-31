@@ -25,7 +25,6 @@ class WC_Bom_Worker {
 	 */
 	public function wco_admin() {
 
-
 		$ajax_data = $this->get_data();
 
 		$ajax_object = [
