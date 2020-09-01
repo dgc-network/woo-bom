@@ -65,7 +65,7 @@ class WC_Bom_Post {
 		$labels = [
 			'name'          => __( 'Assemblies', 'wc-bom' ),
 			'singular_name' => __( 'Assembly', 'wc-bom' ),
-			//'menu_name'     => __( 'Assembly', 'wc-bom' ),
+			'menu_name'     => __( 'Assembly', 'wc-bom' ),
 			'all_items'     => __( 'All Assemblies', 'wc-bom' ),
 		];
 		$args   = [
@@ -78,7 +78,7 @@ class WC_Bom_Post {
 			'show_in_rest'        => true,
 			'rest_base'           => 'assembly',
 			'has_archive'         => 'assemblies',
-			'show_in_menu'        => true,
+			//'show_in_menu'        => true,
 			//'show_in_menu_string' => 'wc-bom-admin',
 			'exclude_from_search' => false,
 			'capability_type'     => 'product',
@@ -134,7 +134,7 @@ class WC_Bom_Post {
 		$labels = [
 			'name'          => __( 'Parts', 'wc-bom' ),
 			'singular_name' => __( 'Part', 'wc-bom' ),
-			//'menu_name'     => __( 'Parts', 'wc-bom' ),
+			'menu_name'     => __( 'Parts', 'wc-bom' ),
 			'all_items'     => __( 'All Parts', 'wc-bom' ),
 
 		];
@@ -147,7 +147,7 @@ class WC_Bom_Post {
 			'publicly_queryable'  => true,
 			'show_ui'             => true,
 			'show_in_rest'        => true,
-			'show_in_menu'        => true,
+			//'show_in_menu'        => true,
 			//'show_in_menu_string' => 'wc-bom-admin',
 			'exclude_from_search' => false,
 			'capability_type'     => 'product',
