@@ -113,7 +113,7 @@ class WC_Bom {
 		//include_once 'uninstall.php';
 		//flush_rewrite_rules();
 		//
-//var_dump($settings);
+		//var_dump($settings);
 	}
 
 	/**
