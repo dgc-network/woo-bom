@@ -62,9 +62,6 @@ class WC_Bom_Settings {//implements WC_Abstract_Settings {
 	}
 
 	/**
-	 *W
-	 *
-	 * /**
 	 * Add options page
 	 */
 	public function wc_bom_menu() {
@@ -148,10 +145,6 @@ class WC_Bom_Settings {//implements WC_Abstract_Settings {
 	/**
 	 * Print the Section text
 	 */
-
-	/**
-	 * Print the Section text
-	 */
 	public function settings_info() { ?>
         <div id="plugin-info-header" class="plugin-info header">
             <div class="plugin-info content">
@@ -168,7 +161,7 @@ class WC_Bom_Settings {//implements WC_Abstract_Settings {
 	public function options_info() { ?>
         <div id="plugin-info-header" class="plugin-info header">
             <div class="plugin-info content">
-                <b>sPitons</b>
+                <b>Opitons</b>
             </div>
 
         </div>
@@ -242,7 +235,8 @@ class WC_Bom_Settings {//implements WC_Abstract_Settings {
 								do_settings_sections( 'wc-bom-options-admin' );
 								submit_button( 'Save Options' );
 
-							} else if ( $active_tab === 'support' ) {
+							//} else if ( $active_tab === 'support' ) {
+
 							} // end if/else//wc_bom_options_group2
 
 							//				submit_button( 'Save Options' );
