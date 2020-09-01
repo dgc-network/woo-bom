@@ -65,7 +65,7 @@ class WC_Bom_Post {
 		$labels = [
 			'name'          => __( 'Assemblies', 'wc-bom' ),
 			'singular_name' => __( 'Assembly', 'wc-bom' ),
-			'menu_name'     => __( 'Assembly', 'wc-bom' ),
+			//'menu_name'     => __( 'Assembly', 'wc-bom' ),
 			'all_items'     => __( 'All Assemblies', 'wc-bom' ),
 		];
 		$args   = [
@@ -134,7 +134,7 @@ class WC_Bom_Post {
 		$labels = [
 			'name'          => __( 'Parts', 'wc-bom' ),
 			'singular_name' => __( 'Part', 'wc-bom' ),
-			'menu_name'     => __( 'Parts', 'wc-bom' ),
+			//'menu_name'     => __( 'Parts', 'wc-bom' ),
 			'all_items'     => __( 'All Parts', 'wc-bom' ),
 
 		];

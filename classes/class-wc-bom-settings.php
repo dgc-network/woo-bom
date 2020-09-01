@@ -76,7 +76,7 @@ class WC_Bom_Settings {//implements WC_Abstract_Settings {
 			'dashicons-clipboard',
 			57
 		);
-/*
+
 		add_submenu_page(
 			'wc-bom-settings',
 			'Parts',
@@ -92,7 +92,7 @@ class WC_Bom_Settings {//implements WC_Abstract_Settings {
 			'manage_options',
 			'edit.php?post_type=assembly'
 		);
-*/		
+		
 	}
 
 	/**
